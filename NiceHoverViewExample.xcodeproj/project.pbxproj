@@ -16,6 +16,7 @@
 		34FA94C12BDF8DFF00969EF3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 34FA94C02BDF8DFF00969EF3 /* SnapKit */; };
 		34FA94C52BDF8EBE00969EF3 /* CustomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA94C42BDF8EBE00969EF3 /* CustomTableCellView.swift */; };
 		34FA94E52BDFA2A200969EF3 /* NiceHoverView in Frameworks */ = {isa = PBXBuildFile; productRef = 34FA94E42BDFA2A200969EF3 /* NiceHoverView */; };
+		34FA94E72BDFA37700969EF3 /* CustomHoverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA94E62BDFA37700969EF3 /* CustomHoverButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		34FA94BB2BDF8B2300969EF3 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		34FA94BD2BDF8C7E00969EF3 /* CustomTableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableRowView.swift; sourceTree = "<group>"; };
 		34FA94C42BDF8EBE00969EF3 /* CustomTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCellView.swift; sourceTree = "<group>"; };
+		34FA94E62BDFA37700969EF3 /* CustomHoverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHoverButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				34520A4A2BDD1A9D0090A411 /* AppDelegate.swift */,
+				34FA94E62BDFA37700969EF3 /* CustomHoverButton.swift */,
 				34520A5A2BDE6C5A0090A411 /* CustomHoverView.swift */,
 				34FA94BB2BDF8B2300969EF3 /* CustomTableViewController.swift */,
 				34FA94BD2BDF8C7E00969EF3 /* CustomTableRowView.swift */,
@@ -155,6 +158,7 @@
 				34FA94BE2BDF8C7E00969EF3 /* CustomTableRowView.swift in Sources */,
 				34520A5B2BDE6C5A0090A411 /* CustomHoverView.swift in Sources */,
 				34FA94BC2BDF8B2300969EF3 /* CustomTableViewController.swift in Sources */,
+				34FA94E72BDFA37700969EF3 /* CustomHoverButton.swift in Sources */,
 				34FA94C52BDF8EBE00969EF3 /* CustomTableCellView.swift in Sources */,
 				34520A4B2BDD1A9D0090A411 /* AppDelegate.swift in Sources */,
 			);

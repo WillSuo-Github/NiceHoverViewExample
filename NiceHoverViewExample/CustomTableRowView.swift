@@ -14,11 +14,11 @@ final class CustomTableRowView: NiceHoverTableRowView {
     }
     
     override func xRadius() -> CGFloat {
-        return 20
+        return 4
     }
     
     override func yRadius() -> CGFloat {
-        return 20
+        return 4
     }
     
     override func hoverRect() -> NSRect {

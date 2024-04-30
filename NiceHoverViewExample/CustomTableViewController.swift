@@ -82,9 +82,9 @@ extension CustomTableViewController: NSTableViewDataSource, NSTableViewDelegate 
     
     func tableView(_ tableView: NSTableView, rowViewForRow row: Int) -> NSTableRowView? {
         let rowIdentifier = NSUserInterfaceItemIdentifier(rawValue: "Row")
-        var rowView = tableView.makeView(withIdentifier: rowIdentifier, owner: self) as? NiceHoverTableRowView
+        var rowView = tableView.makeView(withIdentifier: rowIdentifier, owner: self) as? CustomTableRowView
         if rowView == nil {
-            rowView = NiceHoverTableRowView()
+            rowView = CustomTableRowView()
             rowView?.identifier = rowIdentifier
         }
         return rowView

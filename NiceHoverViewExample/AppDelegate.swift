@@ -40,7 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         contentView.addSubview(customTableViewController.view)
         customTableViewController.view.snp.makeConstraints { make in
-            make.left.bottom.width.equalToSuperview()
+            make.left.right.bottom.equalToSuperview()
             make.top.equalTo(hoverView.snp.bottom)
         }
     }
